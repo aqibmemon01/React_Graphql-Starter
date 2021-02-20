@@ -14,3 +14,5 @@ client_app/react_graphql_with_TS/node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Graphql Starter Template with ServerSide Opollo Graphql & ClientSide React Graphql
