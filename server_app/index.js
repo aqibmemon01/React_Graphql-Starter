@@ -4,22 +4,46 @@ const { ApolloServer, gql } = require('apollo-server');
 const data = [
     {
         "name":"Aqib Memon",
-        "email":"aqib@aqib.com",
-        "age":1,
-        "id":1
+        "email":"aqib@gamil.com",
+        "age":22,
+        "id":01
     },
     {
         "name":"Umer Memon",
-        "email":"umer@aqib.com",
-        "age":2,
-        "id":2
+        "email":"umer@gamil.com",
+        "age":18,
+        "id":02
     },
     {
         "name":"Usman Khan",
-        "email":"usman@aqib.com",
-        "age":21,
-        "id":3
-    }
+        "email":"usman@gamil.com",
+        "age":15,
+        "id":03
+    },
+    {
+      "name":"Ali Majeed",
+      "email":"ali@gamil.com",
+      "age":25,
+      "id":04
+  },
+  {
+    "name":"Aamir Ahmed",
+    "email":"aamir@gamil.com",
+    "age":28,
+    "id":05
+},
+{
+  "name":"Iqra Memon",
+  "email":"iqra@gmail.com",
+  "age":18,
+  "id":06
+},
+{
+  "name":"Uzma Memon",
+  "email":"uzma@gmail.com",
+  "age":21,
+  "id":07
+}
 ]
 
 const resolvers = {
@@ -31,7 +55,7 @@ const resolvers = {
 
 const typeDefs = gql`
 
-  type Students {
+  type students {
     name: String
     email: String
     age: Int
@@ -39,7 +63,7 @@ const typeDefs = gql`
   }
 
   type Query {
-   students: [Students]
+   students: [students]
   }
 `;
 
