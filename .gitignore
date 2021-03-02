@@ -1,6 +1,5 @@
 server_app/node_modules/
-client_app/react_graphql_with_JS/node_modules/
-client_app/react_graphql_with_TS/node_modules/
+client_app/react_Graphql/node_modules/
 
 
 # misc
